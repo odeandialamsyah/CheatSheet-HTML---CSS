@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contoh Cheat Sheet HTML & CSS</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background-color: #f9f9f9; }
+    section { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    h2 { color: #2c3e50; }
+    code, pre { background: #eee; padding: 5px; display: block; margin: 10px 0; }
+    table, th, td { border: 1px solid #ccc; border-collapse: collapse; padding: 5px; }
+  </style>
+</head>
+<body>
+
+<section>
+  <h2>1. Struktur Dasar HTML</h2>
+  <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;&lt;title&gt;Judul Halaman&lt;/title&gt;&lt;/head&gt;
+  &lt;body&gt;Konten di sini&lt;/body&gt;
+&lt;/html&gt;
+  </code></pre>
+</section>
+
+<section>
+  <h2>2. Elemen Teks</h2>
+  <h1>Heading 1</h1>
+  <p>Ini paragraf biasa. <strong>Ini tebal</strong>, <em>ini miring</em>, <u>ini digarisbawahi</u>.</p>
+  <blockquote>Ini adalah kutipan panjang.</blockquote>
+</section>
+
+<section>
+  <h2>3. Link & Gambar</h2>
+  <a href="https://www.google.com">Kunjungi Google</a><br>
+  <img src="https://via.placeholder.com/150" alt="Contoh Gambar">
+</section>
+
+<section>
+  <h2>4. Daftar</h2>
+  <ul>
+    <li>Daftar tidak berurutan</li>
+    <li>Item 2</li>
+  </ul>
+  <ol>
+    <li>Daftar berurutan</li>
+    <li>Item 2</li>
+  </ol>
+</section>
+
+<section>
+  <h2>5. Tabel</h2>
+  <table>
+    <tr><th>Nama</th><th>Usia</th></tr>
+    <tr><td>Ali</td><td>20</td></tr>
+    <tr><td>Budi</td><td>22</td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>6. Formulir</h2>
+  <form>
+    Nama: <input type="text" name="nama"><br>
+    Email: <input type="email" name="email"><br>
+    Pesan: <textarea></textarea><br>
+    Pilihan:
+    <select>
+      <option>Opsi 1</option>
+      <option>Opsi 2</option>
+    </select><br>
+    <button type="submit">Kirim</button>
+  </form>
+</section>
+
+<section>
+  <h2>7. CSS Properti Umum</h2>
+  <div style="color: red; background-color: lightyellow; font-size: 18px; padding: 10px; border: 1px solid #000;">
+    Ini adalah contoh dengan CSS langsung (inline)
+  </div>
+</section>
+
+<section>
+  <h2>8. Flexbox</h2>
+  <div style="display: flex; justify-content: space-around; background: #eee; padding: 10px;">
+    <div>Box 1</div>
+    <div>Box 2</div>
+    <div>Box 3</div>
+  </div>
+</section>
+
+<section>
+  <h2>9. Responsive CSS</h2>
+  <p>Lihat perubahan warna saat ukuran layar mengecil (gunakan dev tools).</p>
+  <style>
+    @media (max-width: 600px) {
+      body { background-color: lightblue; }
+    }
+  </style>
+</section>
+
+</body>
+</html>
